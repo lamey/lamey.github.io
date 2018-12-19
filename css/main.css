@@ -1,13 +1,95 @@
-/* Stylesheet for website */
+/* Stylesheet for portfolio */
 
 body {
-  font-family: 'Raleway', sans-serif;
-  padding-top: 50px;
+  font-family: 'Roboto Slab', serif;
+  height: 100%;
 }
 
+h1 {
+  font-size: 60px;
+  color: #8EBAA8;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
 
+h2 {
+  color: #28635A;
+}
 
-.main {
-  padding: 210px 100px;
+.btn btn-default {
+  background: #8EBAA8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav-bar-container ul {
+  margin: 0;
+  padding: 50px 200px;
+  list-style-type: none;
+}
+
+.nav-bar-container li {
+  float: left;
+  margin: 0;
+  padding: 0px 1em;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-bar-container img {
+  width: 30px;
+  height: 30px;
+  border: 0;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 125px;
   text-align: center;
 }
+
+#main p {
+  font-size: 14px;
+  /*color: #28635A;*/
+  color: #4d4d4d;
+  margin: 10px 375px;
+}
+
+/*.home {
+  width: 50%; 
+  margin: auto;
+  padding: 50px 100px;
+}
+
+.horizontal-nav-bar-menu ul {
+  width: 50%;
+  margin: auto;
+  padding: 50px 100px;
+  list-style-type: none;
+}
+
+.horizontal-nav-bar-menu li {
+  float: left;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+Cactus colors:
+#28635A viridian green
+#8EBAA8 lambs ear green
+#B9CDCA coastal blue
+#F2DCCB desert sand
+#FDAC8A coral
+#E38251 terracotta
